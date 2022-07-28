@@ -89,6 +89,29 @@ if DOING:
     seats.insert_many(outdata)
 
 results = seats.find({},{"name":1})
-print(results)
-# for result in results:
-#     pprint(result)
+for result in results:
+    pprint(result)
+
+""" Future Plans
+-------------
+1.
+
+Load 2PP data into the database
+Develop some helper functions that calculate a national 2pp, national primary data, a seat pendulum
+Add all the 2019, 2016, 2013, 2010, 2007 seat data into database
+
+2.
+Train neural net on above polling place data
+
+3.
+Create a polling collection
+Create a Kalman filter and simple polling averages for polls
+Polls should contain: results, sample size, pollster -> with house effects etc...
+
+4.
+Create function tools that then calculate predicted swings and then
+
+5.
+Kalman filter should use fundamentals which can then be made more sophisticated.
+# # # #
+As I go along I should create helper functions that make editing the database easier. Flag properties that I'm concerned with etc.  """
