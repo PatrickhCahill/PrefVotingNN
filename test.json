@@ -1,0 +1,24 @@
+{
+    "name": "Adelaide",
+    "state": "SA",
+    "2022Results": {
+        "primaryvotes": {
+            "LP": 100,
+            "NP": 0,
+            "ALP": 80,
+            "GRN": 30,
+            "IND": 10,
+            "OTHERS": 5,
+            "INFORMAL": 20
+        },
+        "2CP": {
+            "LP": 140,
+            "NP": 0,
+            "ALP": 160,
+            "GRN": 0,
+            "IND": 0,
+            "OTHERS": 0,
+            "INFORMAL": 20
+        }
+    }
+}
